@@ -47,11 +47,14 @@ Examples (from project root):
 
 ```bash
 # simple run (adjust args inside the script or call python files directly)
+cd Rank_Reduction
 python run_RRR.py
 python run_DWRR.py
 
 # run a prepared shell script (make executable if needed)
-bash run_scripts/run_root_purge.sh
+# You may need to prepend the python path as shown in the example scripts
+cd RootPurge
+bash run_scripts/run_rootpurge_speclin_logC.sh
 ```
 
 ### Project Structure (high-level)
