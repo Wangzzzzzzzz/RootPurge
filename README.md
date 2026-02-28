@@ -61,7 +61,8 @@ bash run_scripts/run_root_purge.sh
 
 ### Citation
 
-If you use this code, please cite:
+If you find this repo useful in your research, please consider citing our paper as follows:
+
 ```bibtex
 @inproceedings{
     wang2026characteristic,
