@@ -1,5 +1,5 @@
 # RootPurge
-Code Repository for Root Purge and post-train Rank Reduction as described in the paper: Characteristic Root Analysis and Regularization for Linear Time Series Forecasting
+Code Repository for Root Purge and post-train Rank Reduction as described in the paper: _Characteristic Root Analysis and Regularization for Linear Time Series Forecasting_ (ICLR 2026)
 
 ## Preparing Environment
 You can install the environment with the following commands:
