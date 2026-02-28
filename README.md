@@ -76,6 +76,6 @@ If you find this repo useful in your research, please consider citing our paper 
 }
 ```
 
-### Contact
+### Contacts
 
-If you find issues or want to contribute, please open an issue or a pull request on the repository. For direct questions, contact the authors listed on the paper. You can also contact Zheng Wang at `david.wang3@cn.bosch.com`.
+If you find issues or want to contribute, please open an issue or a pull request on the repository. For direct questions, please contact Zheng Wang at `david.wang3@cn.bosch.com`.
