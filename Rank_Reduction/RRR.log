@@ -1,0 +1,288 @@
+data: ETTh1, input: 720, output: 96
+train 7825
+val 2785
+test 2785
+optimal val idx: 1, optimal test idx: 1
+test loss on min val: 0.367
+test loss on min 3 val: 0.367
+test loss on min 5 val: 0.367
+min test loss 0.367
+data: ETTh1, input: 720, output: 192
+train 7729
+val 2689
+test 2689
+optimal val idx: 1, optimal test idx: 1
+test loss on min val: 0.401
+test loss on min 3 val: 0.401
+test loss on min 5 val: 0.401
+min test loss 0.401
+data: ETTh1, input: 720, output: 336
+train 7585
+val 2545
+test 2545
+optimal val idx: 0, optimal test idx: 1
+test loss on min val: 0.441
+test loss on min 3 val: 0.430
+test loss on min 5 val: 0.430
+min test loss 0.430
+data: ETTh1, input: 720, output: 720
+train 7201
+val 2161
+test 2161
+optimal val idx: 0, optimal test idx: 3
+test loss on min val: 0.439
+test loss on min 3 val: 0.425
+test loss on min 5 val: 0.425
+min test loss 0.425
+data: ETTh2, input: 720, output: 96
+train 7825
+val 2785
+test 2785
+optimal val idx: 5, optimal test idx: 3
+test loss on min val: 0.269
+test loss on min 3 val: 0.268
+test loss on min 5 val: 0.268
+min test loss 0.268
+data: ETTh2, input: 720, output: 192
+train 7729
+val 2689
+test 2689
+optimal val idx: 4, optimal test idx: 4
+test loss on min val: 0.329
+test loss on min 3 val: 0.329
+test loss on min 5 val: 0.329
+min test loss 0.329
+data: ETTh2, input: 720, output: 336
+train 7585
+val 2545
+test 2545
+optimal val idx: 5, optimal test idx: 5
+test loss on min val: 0.352
+test loss on min 3 val: 0.352
+test loss on min 5 val: 0.352
+min test loss 0.352
+data: ETTh2, input: 720, output: 720
+train 7201
+val 2161
+test 2161
+optimal val idx: 6, optimal test idx: 8
+test loss on min val: 0.376
+test loss on min 3 val: 0.376
+test loss on min 5 val: 0.376
+min test loss 0.376
+data: ETTm1, input: 720, output: 96
+train 33745
+val 11425
+test 11425
+optimal val idx: 7, optimal test idx: 7
+test loss on min val: 0.306
+test loss on min 3 val: 0.306
+test loss on min 5 val: 0.306
+min test loss 0.306
+data: ETTm1, input: 720, output: 192
+train 33649
+val 11329
+test 11329
+optimal val idx: 10, optimal test idx: 9
+test loss on min val: 0.336
+test loss on min 3 val: 0.336
+test loss on min 5 val: 0.336
+min test loss 0.336
+data: ETTm1, input: 720, output: 336
+train 33505
+val 11185
+test 11185
+optimal val idx: 13, optimal test idx: 5
+test loss on min val: 0.365
+test loss on min 3 val: 0.365
+test loss on min 5 val: 0.365
+min test loss 0.364
+data: ETTm1, input: 720, output: 720
+train 33121
+val 10801
+test 10801
+optimal val idx: 15, optimal test idx: 2
+test loss on min val: 0.414
+test loss on min 3 val: 0.414
+test loss on min 5 val: 0.414
+min test loss 0.413
+data: ETTm2, input: 720, output: 96
+train 33745
+val 11425
+test 11425
+optimal val idx: 5, optimal test idx: 4
+test loss on min val: 0.162
+test loss on min 3 val: 0.162
+test loss on min 5 val: 0.162
+min test loss 0.162
+data: ETTm2, input: 720, output: 192
+train 33649
+val 11329
+test 11329
+optimal val idx: 5, optimal test idx: 4
+test loss on min val: 0.216
+test loss on min 3 val: 0.216
+test loss on min 5 val: 0.216
+min test loss 0.216
+data: ETTm2, input: 720, output: 336
+train 33505
+val 11185
+test 11185
+optimal val idx: 6, optimal test idx: 4
+test loss on min val: 0.268
+test loss on min 3 val: 0.268
+test loss on min 5 val: 0.268
+min test loss 0.268
+data: ETTm2, input: 720, output: 720
+train 33121
+val 10801
+test 10801
+optimal val idx: 6, optimal test idx: 4
+test loss on min val: 0.348
+test loss on min 3 val: 0.348
+test loss on min 5 val: 0.348
+min test loss 0.348
+data: electricity, input: 720, output: 96
+train 17597
+val 2537
+test 5165
+optimal val idx: 15, optimal test idx: 15
+test loss on min val: 0.133
+test loss on min 3 val: 0.133
+test loss on min 5 val: 0.133
+min test loss 0.133
+data: electricity, input: 720, output: 192
+train 17501
+val 2441
+test 5069
+optimal val idx: 29, optimal test idx: 30
+test loss on min val: 0.148
+test loss on min 3 val: 0.148
+test loss on min 5 val: 0.148
+min test loss 0.148
+data: electricity, input: 720, output: 336
+train 17357
+val 2297
+test 4925
+optimal val idx: 33, optimal test idx: 37
+test loss on min val: 0.164
+test loss on min 3 val: 0.164
+test loss on min 5 val: 0.164
+min test loss 0.164
+data: electricity, input: 720, output: 720
+train 16973
+val 1913
+test 4541
+optimal val idx: 48, optimal test idx: 41
+test loss on min val: 0.203
+test loss on min 3 val: 0.203
+test loss on min 5 val: 0.203
+min test loss 0.203
+data: weather, input: 720, output: 96
+train 36072
+val 5175
+test 10444
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.140
+test loss on min 3 val: 0.140
+test loss on min 5 val: 0.140
+min test loss 0.140
+data: weather, input: 720, output: 192
+train 35976
+val 5079
+test 10348
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.182
+test loss on min 3 val: 0.182
+test loss on min 5 val: 0.182
+min test loss 0.182
+data: weather, input: 720, output: 336
+train 35832
+val 4935
+test 10204
+optimal val idx: 1, optimal test idx: 0
+test loss on min val: 0.232
+test loss on min 3 val: 0.232
+test loss on min 5 val: 0.232
+min test loss 0.232
+data: weather, input: 720, output: 720
+train 35448
+val 4551
+test 9820
+optimal val idx: 1, optimal test idx: 1
+test loss on min val: 0.304
+test loss on min 3 val: 0.304
+test loss on min 5 val: 0.304
+min test loss 0.304
+data: traffic, input: 720, output: 96
+train 11465
+val 1661
+test 3413
+optimal val idx: 15, optimal test idx: 15
+test loss on min val: 0.385
+test loss on min 3 val: 0.385
+test loss on min 5 val: 0.385
+min test loss 0.385
+data: traffic, input: 720, output: 192
+train 11369
+val 1565
+test 3317
+optimal val idx: 28, optimal test idx: 30
+test loss on min val: 0.396
+test loss on min 3 val: 0.396
+test loss on min 5 val: 0.396
+min test loss 0.396
+data: traffic, input: 720, output: 336
+train 11225
+val 1421
+test 3173
+optimal val idx: 23, optimal test idx: 34
+test loss on min val: 0.410
+test loss on min 3 val: 0.410
+test loss on min 5 val: 0.410
+min test loss 0.410
+data: traffic, input: 720, output: 720
+train 10841
+val 1037
+test 2789
+optimal val idx: 24, optimal test idx: 26
+test loss on min val: 0.448
+test loss on min 3 val: 0.448
+test loss on min 5 val: 0.448
+min test loss 0.448
+data: exchange_rate, input: 720, output: 96
+train 4496
+val 665
+test 1422
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.084
+test loss on min 3 val: 0.084
+test loss on min 5 val: 0.084
+min test loss 0.084
+data: exchange_rate, input: 720, output: 192
+train 4400
+val 569
+test 1326
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.174
+test loss on min 3 val: 0.174
+test loss on min 5 val: 0.174
+min test loss 0.174
+data: exchange_rate, input: 720, output: 336
+train 4256
+val 425
+test 1182
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.324
+test loss on min 3 val: 0.324
+test loss on min 5 val: 0.324
+min test loss 0.324
+data: exchange_rate, input: 720, output: 720
+train 3872
+val 41
+test 798
+optimal val idx: 0, optimal test idx: 0
+test loss on min val: 0.915
+test loss on min 3 val: 0.915
+test loss on min 5 val: 0.915
+min test loss 0.915
