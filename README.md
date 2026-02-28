@@ -69,8 +69,7 @@ If you find this repo useful in your research, please consider citing our paper 
     title={Characteristic Root Analysis and Regularization for Linear Time Series Forecasting},
     author={Zheng Wang and Kaixuan Zhang and Wanfang Chen and Xiaonan Lu and Longyuan Li and Tobias Schlagenhauf},
     booktitle={The Fourteenth International Conference on Learning Representations},
-    year={2026},
-    url={https://openreview.net/forum?id=JTtwGRACte}
+    year={2026}
 }
 ```
 
