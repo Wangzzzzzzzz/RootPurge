@@ -64,7 +64,7 @@ Since noise inflates the effective rank of learned weight matrices, enforcing lo
 <!-- TODO: Add the algorithms figure showing side-by-side RRR and DWRR algorithms -->
 <div align="center">
 <img src="assets/algorithms.png" width="800">
-<br><em>Algorithms for Reduced-Rank Regression (left) and Direct Weight Rank Reduction (right).</em>
+<!-- <br><em>Algorithms for Reduced-Rank Regression (left) and Direct Weight Rank Reduction (right).</em> -->
 </div>
 
 ### 2. Root Purge (Novel Adaptive Regularization)
@@ -88,7 +88,7 @@ Forecasting MSE for horizon H ∈ {96, 192, 336, 720} with lookback window L = 7
 
 <div align="center">
 <img src="assets/main_results.png" width="900">
-<br><em>Main Resutls of Rank Reduction and Root Purge.</em>
+<!-- <br><em>Main Resutls of Rank Reduction and Root Purge.</em> -->
 </div>
 
 <!-- | Dataset | H | FEDformer | FilterNet | TSLANet | TimesNet | PatchTST | DLinear | SparseTSF | FITS | **RRR** | **Root Purge** |
@@ -120,7 +120,7 @@ Root Purge progressively shrinks small singular values (noise-related) while pre
 <!-- Source: figs/singular_value_analysis/ETTm1_singluar_value_spectrum.pdf -->
 <div align="center">
 <img src="assets/singular_value_spectrum.png" width="800">
-<br><em>Singular value magnitudes under different λ values. Root Purge suppresses noise-related singular values while preserving signal components.</em>
+<!-- <br><em>Singular value magnitudes under different λ values. Root Purge suppresses noise-related singular values while preserving signal components.</em> -->
 </div>
 
 ### Data Scaling & Noise Robustness
@@ -131,7 +131,7 @@ On synthetic data, RRR and Root Purge maintain strong performance even with limi
 <!-- Source: figs/noise_data_scaling/noise_level_deviation_with_GT.pdf -->
 <div align="center">
 <img src="assets/data_noise_scaling.png" width="800">
-<br><em>(Left) Performance vs. training data size. (Right) Performance vs. noise level. RRR and Root Purge remain stable throughout.</em>
+<!-- <br><em>(Left) Performance vs. training data size. (Right) Performance vs. noise level. RRR and Root Purge remain stable throughout.</em> -->
 </div>
 
 ### Characteristic Root Recovery
@@ -146,6 +146,8 @@ In controlled synthetic experiments, roots estimated by RRR and Root Purge are s
 | Standard Linear (OLS) | 0.064 ± 0.025 |
 
 </div>
+
+Visualization of roots shows similar results:
 
 <!-- TODO: Add root distribution visualization figure -->
 <!-- Source: figs/Root_Distribution/ -->
@@ -162,7 +164,7 @@ Root Purge improves performance across a wide range of λ values, making it easy
 <!-- Source: figs/hyperparameter_sensitivity/ettm1_hyperparameter.pdf -->
 <div align="center">
 <img src="assets/hyperparameter_sensitivity.png" width="800">
-<br><em>Average forecasting MSE on ETTh1 and ETTm1 across horizons for different values of λ.</em>
+<!-- <br><em>Average forecasting MSE on ETTh1 and ETTm1 across horizons for different values of λ.</em> -->
 </div>
 
 
