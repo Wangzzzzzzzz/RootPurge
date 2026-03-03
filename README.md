@@ -29,7 +29,7 @@ Accepted to ICLR 2026!
 - [Introduction](#introduction)
 - [Method](#method)
 - [Main Results](#main-results)
-- [Model Analysis](#model-analysis)
+- [Key Properties](#key-properties)
 - [Getting Started](#getting-started)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
