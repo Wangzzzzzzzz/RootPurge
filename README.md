@@ -41,7 +41,7 @@ Time series forecasting is critical across domains like weather, energy, and fin
 This paper provides a systematic theoretical analysis of linear time series models through the lens of **characteristic roots**—the fundamental quantities governing temporal dynamics in linear systems (trends, oscillations, decay). We show that:
 
 1. **In noise-free settings**, characteristic roots fully determine a model's expressive power. Common practices like instance normalization and channel-independent modeling naturally arise from this framework.
-2. **In noisy settings**, models learn *spurious roots* from noise, and overcoming this requires **disproportionately large training data** (a key data-scaling property: convergence rate is only $\mathcal{O}(1/\sqrt{T})$).
+2. **In noisy settings**, models learn *spurious roots* from noise, and overcoming this requires **disproportionately large training data** (a key data-scaling property: convergence rate is only $$\mathcal{O}(1/\sqrt{T})$$).
 3. This motivates **structural regularization** to suppress spurious dynamics without relying on massive datasets.
 
 <!-- TODO: Add the paper roadmap figure (source: figs/roadmap/road_map_short.pdf) -->
