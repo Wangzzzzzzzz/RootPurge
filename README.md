@@ -110,7 +110,7 @@ Forecasting MSE for horizon H ∈ {96, 192, 336, 720} with lookback window L = 7
 
 > Methods are especially effective on **smaller datasets** where models relying solely on data scaling tend to underperform.
 
-## Model Analysis
+## Key Properties
 
 ### Singular Value Shrinkage
 Root Purge progressively shrinks small singular values (noise-related) while preserving large ones (signal-related), achieving implicit rank reduction during training.
