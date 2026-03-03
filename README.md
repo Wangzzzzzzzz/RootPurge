@@ -63,7 +63,7 @@ Since noise inflates the effective rank of learned weight matrices, enforcing lo
 
 <!-- TODO: Add the algorithms figure showing side-by-side RRR and DWRR algorithms -->
 <div align="center">
-<img src="assets/algorithms.png" width="900">
+<img src="assets/algorithms.png" width="800">
 <br><em>Algorithms for Reduced-Rank Regression (left) and Direct Weight Rank Reduction (right).</em>
 </div>
 
@@ -76,9 +76,9 @@ Root Purge is a training-integrated method that adaptively learns a noise-suppre
 
 **Intuition:** Through the **rank-nullity theorem**, expanding the null space reduces rank, achieving adaptive denoising during training. Root Purge works in both **time** and **frequency** domains and has only **one hyperparameter** (λ), which is robust across a wide range of values.
 
-$$    
-\min_\mathbf{W} \underbrace{\left\| \mathbf{Y}_{\text{fut}} - \mathcal{G}_\mathbf{W}(\mathbf{Y}_{\text{his}}) \right\|_F^2}_{\text{root-seeking}} + \lambda\underbrace{\left\| \mathcal{G}_\mathbf{W} \circ \mathcal{P}\left( \mathbf{Y}_{\text{fut}} - \mathcal{G}_\mathbf{W} (\mathbf{Y}_{\text{his}})  \right) \right\|_F^2}_{\text{root-purging}}
-$$
+<div align="center">
+<img src="assets/root_purge.png" width="600">
+</div>
 
 ## Main Results
 
@@ -151,7 +151,7 @@ In controlled synthetic experiments, roots estimated by RRR and Root Purge are s
 <!-- Source: figs/Root_Distribution/ -->
 <div align="center">
 <img src="assets/root_distribution.png" width="800">
-<br><em>Root distribution on the complex plane: RRR and Root Purge recover roots closer to the true dynamics.</em>
+<!-- <br><em>Root distribution on the complex plane: RRR and Root Purge recover roots closer to the true dynamics.</em> -->
 </div>
 
 ### Hyperparameter Robustness
